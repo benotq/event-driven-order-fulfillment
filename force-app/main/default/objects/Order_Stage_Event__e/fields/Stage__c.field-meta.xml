@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <description>SUBMITTED, INVENTORY_RESERVED, SHIPPED, DELIVERED, or FAILED. Plain Text rather than a picklist: platform event fields don't support picklists with restricted value sets the same way, and subscribers already validate the value in code.</description>
+    <label>Stage</label>
+    <length>40</length>
+    <required>true</required>
+    <type>Text</type>
+</CustomField>

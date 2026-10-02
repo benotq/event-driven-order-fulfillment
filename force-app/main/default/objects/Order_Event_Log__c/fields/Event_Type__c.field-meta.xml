@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Type__c</fullName>
+    <description>The stage name the event carried (SUBMITTED, INVENTORY_RESERVED, SHIPPED, DELIVERED, FAILED) or a dispatcher-level marker like SUBSCRIBER_ERROR.</description>
+    <label>Event Type</label>
+    <length>40</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+</CustomField>
